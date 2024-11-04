@@ -5,7 +5,6 @@ import ru.yandex.kingartaved.aston_array_list.aston_list.AstonList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Comparator;
-import java.util.Iterator;
 
 public class AstonArrayList<E> implements AstonList<E> {
 
@@ -14,8 +13,6 @@ public class AstonArrayList<E> implements AstonList<E> {
     private E[] values;
 
     private int countOfElements = 0;
-
-    private int indexForIterator = 0;
 
     @SuppressWarnings("unchecked")
     public AstonArrayList() {
